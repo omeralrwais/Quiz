@@ -56,8 +56,9 @@
         android:id="@+id/Score"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/QuestionButton"
+        android:layout_alignParentLeft="true"
         android:layout_below="@+id/QuestionButton"
+        android:layout_marginTop="51dp"
         android:ems="10" />
 
 </RelativeLayout>

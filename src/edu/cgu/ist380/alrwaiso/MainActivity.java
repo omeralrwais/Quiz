@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 	private Button questionButton;
 	private TextView questionView;
 	private TextView answerView;
-	private EditText answerText;
+	private TextView answerText;
 	private TextView ScoreView;
 	
 	@Override
@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 				
 				questionView.setText("Question #1  "+questions[currentQuestion+1]);
 				
-				answerText = (EditText) findViewById(R.id.AnswerText);
+				answerText = (TextView) findViewById(R.id.AnswerText);
 				
 				answerButton.setOnClickListener(new OnClickListener(){
 					@Override
